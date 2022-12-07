@@ -1,0 +1,23 @@
+﻿TokTrends (Team 7)
+Jovawnte’ Stovall
+Alejandro Gutierrez
+
+
+Goal:
+To look at social media platform data, particularly user information. We use datasets concerning content creators from TikTok and user/friend information from Twitter. Interests and other information can be gathered by scanning these datasets. We intentionally selected one dataset (Twitter) from 6 years ago and the other from a more recent timeframe in order to potentially dig for trends, correlations, etc. if further analysis is done.
+
+
+
+
+Data sources:
+* https://www.kaggle.com/datasets/ashwathna/tiktokcreators
+* https://www.kaggle.com/datasets/hwassner/TwitterFriends
+
+Databases:
+Non-Relational (Mongo)
+
+
+Findings:
+
+
+Initial scanning of the datasets show that relational databases could for sure be used based on things like location and counts/visits. However, because of the varying nature of the data in terms of type and size for example, we will go with Mongo. We can still join on similar data for further analysis of trends, correlations, etc.
